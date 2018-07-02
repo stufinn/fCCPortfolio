@@ -93,7 +93,7 @@ nav {
 	display: grid;
 	text-decoration: none;
 	color: white;
-	background-color: var(--white-transparency);
+	background-color: var(--black-transparency);
 	width: 150px;
 	height: 1.5em;
 	border-radius: 0.5em;
