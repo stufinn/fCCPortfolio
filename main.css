@@ -107,8 +107,7 @@ nav {
 }
 
 .navButton:hover {
-	color: black;
-	background-color: white;
+	background-color: var(--white-transparency);
 }
 
 
