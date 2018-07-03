@@ -59,6 +59,7 @@ table {
 }
 
 
+
 body {
 	box-sizing: border-box;
 	display: grid;
@@ -69,16 +70,30 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color: white;
+	font-family: 'Monserrat', sans-serif;
+	
 	/* min-height: calc(100vh - 100px); */
 	/* background-attachment: fixed; */
 	/* justify-content: center; */
 
 }
 
-p {
+h1 {
+	font-size: 3em;
+	padding-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+a {
 	color: white;
-	font-size: 2em;
-	padding: 20px 0;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: 100;
+	/* padding: 20px 0; */
 }
 
 nav {
@@ -138,6 +153,13 @@ section {
 
 /* WELCOME SECTION */
 
+#stuImg {
+	width: 20vw;
+	min-width: 200px;
+	max-width: 300px;
+	border-radius: 50%;
+}
+
 #welcomeContent,
 #contact {
 	display: grid;
@@ -148,11 +170,14 @@ section {
 
 #welcomeContent {
 	height: 100%;
+	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(auto-fit, minmax(1.5em, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(2em, auto));
 	height: calc(100vh); /* to pass fCC test, must be 100vh - change to calc(100vh - 66px) */
 	/* padding-top: 66px; */
-	
+	align-content: center;
+	grid-gap: 20px;
+	text-align: center;
 	
 }
 
@@ -171,8 +196,10 @@ section {
 	justify-content: center;
 	background: var(--white-transparency);
 	grid-gap: 10px;
-	
-	
+}
+
+.hidden {
+	display: none;
 }
 
 @media screen and (max-width: 750px) {
