@@ -86,6 +86,11 @@ h1 {
 	font-weight: 600;
 }
 
+h2 {
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+
 a {
 	color: white;
 }
@@ -134,6 +139,7 @@ nav {
 	height: calc(100vh - 66px); /* full screen minus height of navbar */
 	overflow: auto;				/* Allows content to scroll */
 	width: calc(100% - 40px);
+	/* min-width: 400px; */
 	justify-self: center;      /* Centers main content on screen */
 	/* margin-top: -66px; */
 }
@@ -184,23 +190,54 @@ section {
 /* PROJECT SECTION */
 
 #projects {
+	text-align: center;
+
+}
+
+#project-container {
+	display: grid;
 	grid-template-columns: repeat(auto-fit, 300px);
 	grid-auto-rows: 300px;
 	justify-content: center;
 	grid-gap: 10px;
+	padding: 20px 0;
 }
 
 .project-tile {
 	display: grid;
 	align-content: center;
 	justify-content: center;
+	grid-template-rows: repeat(auto-fit, auto);
 	background: var(--white-transparency);
+	justify-items: center;
 	grid-gap: 10px;
+	border-radius: 15%;
+}
+
+#scriptProofReader {
+	grid-template-rows: repeat(auto-fit, auto);
+	justify-items: center;
 }
 
 .hidden {
 	display: none;
 }
+
+#project-container p {
+	font-size: 1em;
+	width: 95%;
+}
+
+#project-container img {
+	width: 30%;
+	min-width: 30px;
+}
+
+/* button {
+	background: var(--white-transparency);
+	color: black;
+	border: none;
+} */
 
 @media screen and (max-width: 750px) {
 	
