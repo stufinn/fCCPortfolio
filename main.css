@@ -64,7 +64,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 15px;
-	background-image: url("assets/images/niilo-isotalo-371114-unsplash.jpg"),		
+	background-image: url("assets/images/niilo-isotalo-371114-unsplash_small.jpg"),		
 		linear-gradient(110deg,rgba(80,192,84),rgba(51,55,90));
 	background-size: cover;
 	/* min-height: calc(100vh - 100px); */
