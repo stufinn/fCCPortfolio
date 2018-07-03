@@ -66,6 +66,9 @@ body {
 	grid-gap: 15px;
 	background-image: url("assets/images/niilo-isotalo-371114-unsplash_small.jpg"),		
 		linear-gradient(110deg,rgba(80,192,84),rgba(51,55,90));
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	/* min-height: calc(100vh - 100px); */
 	background-attachment: fixed;
