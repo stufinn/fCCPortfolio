@@ -140,7 +140,7 @@ nav {
 	grid-gap: 20px;
 	height: calc(100vh - 66px); /* full screen minus height of navbar */
 	overflow: auto;				/* Allows content to scroll */
-	width: calc(100% - 85px);
+	width: calc(100% - 40px);
 	justify-self: center;      /* Centers main content on screen */
 }
 
