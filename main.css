@@ -160,9 +160,9 @@ section {
 /* WELCOME SECTION */
 
 #welcome-section {
-	min-height: 100vh;
+	height: 100vh;
 	align-content: start;
-	grid-auto-rows: repeat(2, auto)
+	/* grid-auto-rows: repeat(2, auto) */
 }
 
 #stuImg {
@@ -183,6 +183,7 @@ section {
 
 #welcomeContent {
 	padding-top: 10vmin;
+	margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -191,6 +192,7 @@ section {
 #welcomeContent p {
 	padding-top: 1.5em;
 	text-align: center;
+	
 }
 
 /* PROJECT SECTION */
@@ -249,5 +251,9 @@ section {
 	
 	#mainContent {
 		height: calc(100vh - 122px);
+	}
+
+	#welcome-section {
+		height: auto;
 	}
 }
