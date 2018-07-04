@@ -160,7 +160,7 @@ section {
 /* WELCOME SECTION */
 
 #welcome-section {
-	height: 100vh;
+	min-height: 100vh;
 	align-content: start;
 	grid-auto-rows: repeat(2, auto)
 }
