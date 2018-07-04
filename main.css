@@ -93,6 +93,7 @@ h2 {
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 p {
@@ -151,6 +152,7 @@ section {
 	/* margin: 0 20px 0 20px; */
 	background-color: var(--black-transparency);
 	border-radius: 0.5em;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* #welcome-section {
@@ -163,6 +165,10 @@ section {
 	height: 100vh;
 	align-content: start;
 	/* grid-auto-rows: repeat(2, auto) */
+}
+
+#welcome-section a {
+	text-decoration: underline;
 }
 
 #stuImg {
@@ -207,8 +213,8 @@ section {
 	grid-template-columns: repeat(auto-fit, 300px);
 	grid-auto-rows: 300px;
 	justify-content: center;
-	grid-gap: 10px;
-	padding: 20px 0;
+	grid-gap: 20px;
+	margin: 20px;
 }
 
 .project-tile {
@@ -237,15 +243,72 @@ section {
 }
 
 #project-container img {
-	width: 30%;
+	width: 90px;
 	min-width: 30px;
 }
 
-/* button {
-	background: var(--white-transparency);
+.project-name {
+	min-height: 2.25em;
+}
+
+.project-link {
+	background: rgba(0,0,0,0.3);
+	color: rgba(225,225,225,0.9);
+	font-weight: bold;
+	padding: 6px 6px 5px 6px;
+	margin-top: 10px;
+	border-radius: 5%;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.project-link:hover {
+	cursor: pointer;
 	color: black;
-	border: none;
-} */
+	background: var(--white-transparency);
+}
+
+/* ABOUT SECTION */
+
+#about {
+	grid-gap: 20px;
+}
+
+section h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#about-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 90px);
+	justify-content: center;
+	/* justify-items: center; */
+	grid-gap: 40px;
+	margin: 0 20px 20px 20px;
+}
+
+.profileLogo {
+	height: 90px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+	grid-gap: 20px;
+}
+
+#contactContent {
+	margin-bottom: 20px;
+}
+
+
+#contact p {
+	line-height: 1.5em;
+}
+
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 750px) {
 	
