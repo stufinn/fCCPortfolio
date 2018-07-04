@@ -183,14 +183,14 @@ section {
 
 #welcomeContent {
 	padding-top: 10vmin;
-	margin-bottom: 20px;
+	margin: 0 20px 25px 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 #welcomeContent p {
-	padding-top: 1.5em;
+	padding-top: 20px;
 	text-align: center;
 	
 }
@@ -253,7 +253,7 @@ section {
 		height: calc(100vh - 122px);
 	}
 
-	#welcome-section {
+	#welcome-section {				/* When on desktop, #welcome-section is 100vh, but needs to be set to 'auto' to fit mobile devices */
 		height: auto;
 	}
 }
