@@ -55,6 +55,7 @@ table {
 	
 	--black-transparency: rgba(0,0,0,0.5);
 	--white-transparency: rgba(225,225,225,0.1);
+	
 
 }
 
@@ -142,6 +143,7 @@ nav {
 	overflow: auto;				/* Allows content to scroll */
 	width: calc(100% - 40px);
 	justify-self: center;      /* Centers main content on screen */
+	/* overflow-x: hidden; */
 }
 
 section {
@@ -235,6 +237,7 @@ section {
 
 .project-name {
 	min-height: 2.25em;
+	/* text-decoration: underline; */
 }
 
 .project-link {
