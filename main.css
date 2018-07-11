@@ -73,6 +73,8 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: 'Monserrat', sans-serif;
+	min-width: 400px;
+	overflow-x: hidden;
 	
 	/* min-height: calc(100vh - 100px); */
 	/* background-attachment: fixed; */
@@ -305,6 +307,8 @@ section h2 {
 	#mainContent {
 		height: calc(100vh - 122px);
 		overflow-x: hidden;
+		/* width: calc(100% - 40px); */
+		min-width: 300px;
 	}
 
 	#welcome-section {				/* When on desktop, #welcome-section is 100vh, but needs to be set to 'auto' to fit mobile devices */
