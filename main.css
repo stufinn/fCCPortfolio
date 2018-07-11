@@ -304,6 +304,7 @@ section h2 {
 	
 	#mainContent {
 		height: calc(100vh - 122px);
+		overflow-x: hidden;
 	}
 
 	#welcome-section {				/* When on desktop, #welcome-section is 100vh, but needs to be set to 'auto' to fit mobile devices */
