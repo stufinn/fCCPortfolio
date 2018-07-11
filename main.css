@@ -73,7 +73,7 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: 'Monserrat', sans-serif;
-	min-width: 400px;
+	/* min-width: 400px; */
 	overflow-x: hidden;
 	
 	/* min-height: calc(100vh - 100px); */
