@@ -308,7 +308,7 @@ section h2 {
 		height: calc(100vh - 122px);
 		overflow-x: hidden;
 		/* width: calc(100% - 40px); */
-		min-width: 300px;
+		min-width: 295px;
 	}
 
 	#welcome-section {				/* When on desktop, #welcome-section is 100vh, but needs to be set to 'auto' to fit mobile devices */
