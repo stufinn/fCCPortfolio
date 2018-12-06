@@ -292,6 +292,9 @@ section h2 {
 
 #contactContent {
 	margin-bottom: 20px;
+	display:grid;
+	grid-gap: 10px;
+	justify-items: center;
 }
 
 
@@ -309,6 +312,8 @@ section h2 {
 		overflow-x: hidden;
 		/* width: calc(100% - 40px); */
 		min-width: 295px;
+		scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 	}
 
 	#welcome-section {				/* When on desktop, #welcome-section is 100vh, but needs to be set to 'auto' to fit mobile devices */
